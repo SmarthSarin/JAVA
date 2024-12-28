@@ -7,10 +7,10 @@ their interactions, promoting modularity, reusability, and scalability in softwa
 
 Key Features of OOPS:
 
-Encapsulation: Bundling data and methods into a single unit (class) and restricting direct access to some components.
-Inheritance: Allowing a class to derive properties and behavior from another class.
-Polymorphism: Enabling methods or objects to take on multiple forms, such as method overloading and overriding.
-Abstraction: Hiding complex implementation details and exposing only essential features.
+1. Encapsulation: Bundling data and methods into a single unit (class) and restricting direct access to some components.
+2. Inheritance: Allowing a class to derive properties and behavior from another class.
+3. Polymorphism: Enabling methods or objects to take on multiple forms, such as method overloading and overriding.
+4. Abstraction: Hiding complex implementation details and exposing only essential features.
 
 Languages that are **not object-oriented** or do not primarily follow the Object-Oriented Programming paradigm
 are typically **procedural** or **functional programming languages**. Here are a few examples:
