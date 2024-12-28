@@ -1,0 +1,28 @@
+# Encapsulation
+Encapsulation in Object-Oriented Programming (OOP) is a concept that binds together 
+the **data** (attributes) and **methods** (functions) that manipulate that data, 
+within a single unit, known as a **class**. 
+The main objective of encapsulation is to hide the internal state of an object 
+and protect it from unauthorized or unintended access, a principle known as **data hiding**.
+
+Encapsulation allows a class to expose only what is necessary to the outside world, 
+typically through **public methods** while keeping internal data **private**. 
+This makes classes easier to manage, more secure, and reduces dependencies within the code.
+
+## Key Benefits of Encapsulation:
+1. **Data Protection**: By keeping data private, you ensure that it is accessed 
+and modified only in controlled ways.
+2. **Modularity**: Encapsulated classes are self-contained, making it easier to understand, 
+debug, and maintain code.
+3. **Controlled Access**: Access to data can be controlled through methods, 
+which helps in adding validation or custom logic.
+4. **Flexibility and Maintenance**: Changes in the internal implementation don’t affect other parts of the code,
+as long as the public methods remain the same.
+
+## Summary
+Encapsulation in OOP helps to:
+1. Protect the internal state of an object.
+2. Provide controlled access to an object’s data through methods.
+3. Make the class more flexible and maintainable by separating the implementation from the interface.
+
+By encapsulating attributes and exposing controlled access points, you can ensure that your classes are used correctly and that sensitive data is safeguarded against invalid modifications.
