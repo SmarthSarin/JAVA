@@ -1,0 +1,26 @@
+# Inheritance
+Inheritance is a fundamental concept in Object-Oriented Programming (OOP) that allows one class to **inherit** properties and behaviors from another class. Inheritance enables code reuse, modularity, and the creation of a class hierarchy, where classes share attributes and methods in a structured way.
+
+Inheritance in Object-Oriented Programming (OOP) is a feature that allows one class to inherit the properties and behaviors (fields and methods) of another class. It’s like a parent-child relationship, where the child class (subclass) automatically has access to the features of its parent class (superclass). Inheritance promotes code reusability and establishes a logical hierarchy among classes.
+
+## Key Points of Inheritance:
+1. **Parent (or Superclass)**: The class that provides its properties and methods to other classes.
+2. **Child (or Subclass)**: The class that inherits from another class.
+3. **`extends` Keyword**: Used in Java to indicate inheritance.
+
+## Benefits of Inheritance:
+- **Code Reusability**: Common code is shared across classes, reducing duplication.
+- **Hierarchical Classification**: Classes can be organized into hierarchies, making code organization logical.
+- **Easy Maintenance**: Changes in the superclass automatically propagate to subclasses, making maintenance easier.
+- **Extensibility**: New features or behaviors can be added in subclasses without altering the superclass.
+
+## Types of Inheritance
+In Java, inheritance is limited to **single inheritance** (a class can inherit from only one superclass) due to the **diamond problem** (ambiguity with multiple inheritance). However, a class can implement multiple interfaces, which is a way to achieve a similar effect.
+
+## Summary
+Inheritance in Java allows for:
+1. **Code Reusability**: A superclass can define attributes and behaviors that are reused in subclasses.
+2. **Polymorphism**: Through method overriding, subclasses can provide specialized behavior.
+3. **Hierarchical Relationships**: Superclass-subclass relationships establish a hierarchy of classes, which makes code organization more logical and maintainable.
+
+By using inheritance wisely, you can create modular, extensible code that is both easier to maintain and scalable.
